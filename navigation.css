@@ -1,0 +1,65 @@
+html,
+body
+{
+    margin: 0;
+    padding: 0;
+ }
+.main
+{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%,);
+    background-image: url(img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar
+{
+    width: 1200px;
+    height: 80px;
+    margin: 10px;
+    /* background-color: aqua; */
+}
+.icon
+{
+    width: 300px;
+    float: left;
+    height: 70px;
+}
+.logo
+{
+    color: #3346f0;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: blueviolet;
+    font-family: Cambria;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+}
+ul li a:hover
+{
+    color: chartreuse;
+}
